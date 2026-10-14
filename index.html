@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="left-side">
+            <div class="logo">
+                <div class="odin-img"></div>
+                <div class="odin-text">Odin</div>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <div class="blurb">
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            </div>
+
+            <div class="form-container">
+                <div class="encouragement-text">
+                    <p>Let's do this!</p>
+                </div>
+
+                <form>
+                    <div class="fieldset-one">
+                        <fieldset>
+                            <label for="first_name">FIRST NAME</label><br>
+                            <input type="text" id="first_name" placeholder="Enter your first name"
+                                name="first_name"><br>
+                            <label for="user_email">EMAIL</label><br>
+                            <input type="email" id="email"><br>
+                            <label for="user_password">PASSWORD</label><br>
+                            <input type="password" id="user_password" name="password"><br>
+                        </fieldset>
+                    </div>
+                    <div class="fieldset-two">
+                        <fieldset>
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" placeholder="Enter last name"> <br>
+                            <label for="number" id="user_phone_number">PHONE NUMBER</label>
+                            <input type=" tel" id="user_phone_number" name="user_phone_number"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="123-456-7890" /><br>
+                            <label for="confirm_password">CONFIRM PASSWORD</label><br>
+                            <input type="password" id="user_password" name="password">
+                        </fieldset>
+                    </div>
+                </form>
+
+                <div class="submit-button">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="https://www.example.com">Login</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
