@@ -7,8 +7,10 @@
 body {
     padding: 0;
     margin: 0;
-    height: 100%;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 .page-container {
     display: flex;
@@ -48,4 +50,89 @@ body {
     height: 150px;
     margin-top: 10rem;
 
+}
+
+.image-credit {
+    color: white;
+    margin-top: auto;
+    align-self: center;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    height: 100%;
+    background-color: rgba(167, 166, 166, 0.089);
+
+}
+
+.blurb {
+    margin-left: 3rem;
+    width: 650px;
+}
+
+.blurb p {
+    font-size: 20px;
+}
+
+.encouragement-text {
+    margin-left: 2rem;
+    margin-bottom: 0;
+
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 275px;
+    border: 1px solid white;
+    padding-left: 2rem;
+    background-color: white;
+    box-shadow: 1px 5px 10px rgb(191, 191, 191);
+}
+
+form {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    gap: 20px;
+
+}
+
+input {
+    font-size: 14px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightgray;
+    margin: 1rem;
+    font-size: 12px;
+}
+
+button {
+    background-color: #596D48;
+    color: whitesmoke;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+a {
+    color: #596D48;
+}
+
+.submit-button p {
+    font-size: 14px;
+    margin-left: 2rem;
 }
