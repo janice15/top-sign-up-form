@@ -56,6 +56,9 @@ body {
     color: white;
     margin-top: auto;
     align-self: center;
+    font-size:12px;
+    background: black;
+    opacity: 0.9
 }
 
 .right-side {
@@ -117,6 +120,16 @@ fieldset {
     margin: 1rem;
     font-size: 12px;
 }
+
+input:user-valid {
+    border-color: green;
+}
+
+input:user-invalid {
+    border-color: red;
+
+}
+
 
 button {
     background-color: #596D48;
